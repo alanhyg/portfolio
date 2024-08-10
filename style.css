@@ -47,13 +47,13 @@ ul {
     font-weight: bold;
 }
 
-button {
+.cv, .call {
     border: 0;
     border-radius: 10px;
     padding: 6px 24px;
 }
 
-button:hover {
+.cv:hover {
     background-color: #3882F6;
     color: white;
 }
@@ -115,4 +115,48 @@ h1 {
 .author {
     text-align: end;
     font-size: 22px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 28px;
+}
+
+.info {
+    width: 75%;
+}
+
+.info .text {
+    color: white;
+}
+
+.cta .heading {
+    text-align: start;
+    margin-bottom: 14px;
+    color: white;
+}
+
+.call {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    margin: auto;
+}
+
+.call:hover {
+    background-color: white;
+    color: #3882F6;
+    font-weight: bold;
 }
